@@ -1,6 +1,10 @@
-import { ref } from 'vue'
+import { ref} from 'vue'
+
 
 export const numberCalculator = () => {
+
+
+
   const deuda = ref(0)
   const años = ref(0)
   const intereses = ref(0)
@@ -11,10 +15,9 @@ export const numberCalculator = () => {
     if (deuda > 0 && años > 0 && intereses > 0) {
       const calculo =
         (deuda * (intereses / 12)) / (100 * (1 - Math.pow(1 + intereses / 1200, -años * 12)))
-      resultado.value = calculo
+      resultado.value = calculo;
+     
       return resultado.value
-    } else {
-      alert('No se puede calcular,Revise los datos')
     }
   }
 

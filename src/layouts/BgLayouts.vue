@@ -6,7 +6,7 @@
   </div>
   <div
     :style="{ backgroundImage: `url(${backgroundImage})` }"
-    className=" bg-cover bg-center fixed h-screen w-screen"
+    className=" bg-cover bg-center lg:w-[100%]  fixed h-screen w-screen"
   ></div>
   <main class="flex items-center">
       <RouterView v-slot="{Component}">
