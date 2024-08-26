@@ -15,7 +15,7 @@ export const numberCalculator = () => {
     if (deuda > 0 && años > 0 && intereses > 0) {
       const calculo =
         (deuda * (intereses / 12)) / (100 * (1 - Math.pow(1 + intereses / 1200, -años * 12)))
-      resultado.value = calculo;
+      resultado.value =Number(calculo.toFixed(2));
      
       return resultado.value
     }
