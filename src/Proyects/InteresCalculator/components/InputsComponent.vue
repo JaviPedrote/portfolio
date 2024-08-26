@@ -1,8 +1,8 @@
 <template>
   <div
-    className="lg:absolute flex flex-col lg:flex-row lg:w-screen lg:h-screen lg:bg-Celeste lg:justify-center lg:items-center"
+    className="lg:absolute flex flex-col lg:flex-row lg:w-screen lg:h-[94vh] lg:bg-Celeste lg:justify-center lg:items-center"
   >
-    <div     className="lg:absolute flex flex-col lg:flex-row lg:w-[80%] lg:h-[75%] lg:bg-white lg:justify-center lg:items-center lg:rounded-3xl"
+    <div     className="lg:absolute flex flex-col lg:flex-row lg:w-[80%] lg:h-[77%] lg:bg-white lg:justify-center lg:items-center lg:rounded-3xl"
     >
       <div
         className="relative p-6 bg-white w-screen h-[500px] sm:h-[550px] lg:place-content-center lg:h-[100%] lg:w-[50%] flex flex-col text-start lg:rounded-s-3xl"

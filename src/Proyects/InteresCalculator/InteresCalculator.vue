@@ -4,7 +4,7 @@ import InputsComponent from './components/InputsComponent.vue'
 </script>
 
 <template>
-  <div className="flex">
+  <div className=" mt-11 relative">
     <InputsComponent/>   
   </div>
 

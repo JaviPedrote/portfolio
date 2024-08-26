@@ -1,6 +1,6 @@
 <template>
   
- <div className="">
+ <div className="pt-5">
     <div v-if="prop1 === 0" className="flex flex-col absolute items-center lg:place-content-center h-[80%] w-full gap-6 p-10  rounded-e-3xl">
       <img :src="calculadora" alt="Icono" className=" w-40 h-40 bg-VerdeResultado" />
       <h1 className="text-xl font-semibold text-white">Resultados mostrados aquí.</h1>
