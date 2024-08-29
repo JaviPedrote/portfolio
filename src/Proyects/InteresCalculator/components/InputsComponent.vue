@@ -1,6 +1,6 @@
 <template>
   <div
-    className="absolute flex flex-col top-9 lg:flex-row lg:w-screen lg:h-[94vh] lg:bg-Celeste lg:justify-center lg:items-center"
+    className="absolute left-0 flex flex-col top-9 lg:flex-row lg:w-screen lg:h-[94vh] lg:bg-Celeste lg:justify-center lg:items-center"
   >
     <div className="flex flex-col lg:flex-row lg:w-[80%] lg:h-[77%] lg:bg-white lg:justify-center lg:items-center lg:rounded-3xl"
     >
