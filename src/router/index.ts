@@ -20,11 +20,11 @@ const router = createRouter({
           name: 'Proyecto1',
           component: () => import('../Proyects/InteresCalculator/InteresCalculator.vue')
         },
-        // {
-        //   path: '/Proyecto2',
-        //   name: 'Proyecto2',
-        //   component: () => import('../Proyects/Proyecto2/Proyecto2.vue')
-        // },
+        {
+          path: '/Proyecto2',
+          name: 'Proyecto2',
+          component: () => import('../Proyects/Ecommerce/EcommerceAmazon.vue')
+        },
       ]
     }
   ]

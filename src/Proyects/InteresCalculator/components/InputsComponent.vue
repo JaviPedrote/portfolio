@@ -104,7 +104,7 @@ const { deuda, años, intereses, calcularResultado, resultado, clearInputs } = n
 const spanClass = ref('bg-Celeste')
 
 const handleFocus = () => {
-  spanClass.value = 'bg-Lime text-slate-800'
+  spanClass.value = 'bg-Lime text-slate-200'
 }
 
 const handleBlur = () => {

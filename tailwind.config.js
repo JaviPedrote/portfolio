@@ -13,9 +13,18 @@ export default {
         'VerdeResultado':'hsl(201, 54%, 16%)',
         'VerdeTarjeta':'hsl(204, 38%, 15%)'
       },
+      backgroundImage: {
+        'custom-image': "url('./images/image-product-1-thumbnail.jpg')", // Asegúrate de reemplazar con tu ruta
+      },
       variants: {
         backgroundColor: ('responsive', 'hover', 'focus', 'checked'),
       },
+      fontFamily: {
+        kumbh: ['Kumbh', 'sans-serif'],
+      },
+      fontWeight:{
+        'exbold': '770',
+      }
     },
   },
   plugins: [],
