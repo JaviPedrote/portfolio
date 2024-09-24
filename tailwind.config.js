@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      margin: {
+        'custom': 'calc(100px + 45%)',
+      },
       colors:{
         'Lime': 'hsl(61, 70%, 52%)',
         'Red': 'hsl(4, 69%, 50%)',

@@ -1,13 +1,13 @@
 <template>
   <div className="">
     <div
-      className="flex flex-wrap md:flex-nowrap md:flex md:flex-row gap-4 md:gap-12 md:pt-16 md:items-start items-center md:pl-[9rem]"
+      className="flex flex-wrap md:flex-nowrap md:flex md:flex-row gap-4 md:gap-12 md:pt-[4.5rem] md:items-start items-center md:pl-[9.2rem]"
     >
       <!-- flecha fotos -->
 
       <!-- fotos -->
       <div
-        className="w-full md:w-[34rem] md:h-[25.2rem] md:flex md:flex-col md:place-content-between place-content-center"
+        className="w-full md:w-[41rem] md:h-[25.8rem] md:flex md:flex-col md:place-content-between place-content-center"
       >
         <div
           className="md:hidden absolute top-48 flex left-4 bg-slate-200 rounded-full w-9 h-9 place-content-center items-center"
@@ -21,7 +21,7 @@
         </div>
         <img
           src="../images/image-product-1.jpg"
-          className="w-full h-[290px] md:h-[20.5rem] md:rounded-lg  md:mb-4 object-cover"
+          className="w-full h-[300px] md:h-[20.5rem] md:rounded-lg  md:mb-4 md:min-w-[250px] object-cover"
           alt="back"
         />
 
@@ -51,22 +51,22 @@
       </div>
 
       <!-- detalles -->
-      <div className="md:h-full md:flex md:flex-col md:tracking-wider">
+      <div className="md:flex md:flex-col md:tracking-wider">
         <div
-          className=" text-left px-6 pt-3 pb-5 bg-white md:pt-12 md:pl-10 md:pr-[30%] md:flex md:flex-col md:pb-3"
+          className=" text-left px-6 pt-1 pb-5 bg-white md:pt-11 md:pl-11 md:pr-[20%] md:flex md:flex-col md:pb-3 "
         >
           <h2
-            className="uppercase text-[11px] font-bold text-slate-600 tracking-[2px] md:tracking-[1.7px] md:text-[9px] md:pb-2"
+            className="uppercase text-[11px] font-extrabold text-slate-600 tracking-[1.6px] md:tracking-[1.7px] md:text-[9px]"
           >
             Sneaker Company
           </h2>
           <h1
-            className=" font-exbold text-[26px] mt-1 mb-3 leading-8 md:leading-9 md:text-[30px] md:font-exbold"
+            className=" font-exbold text-[26px] tracking-wide mt-3 mb-3 leading-8 md:leading-9 md:text-[30px] md:font-exbold md:min-w-[370px] "
           >
             Fall Limited Edition Sneakers
           </h1>
           <p
-            className=" text-sm pt-0 tracking-[0.5px] leading-6 md:text-[11px] md:pt-4 md:leading-[1.1rem] md:tracking-[0.6px]"
+            className=" text-sm tracking-[0.8px] leading-[1.5rem] md:text-[11px] md:pt-4 md:leading-[1.2rem] md:tracking-[0.7px] md:min-w-[300px] "
           >
             These low-profile sneakers are your perfect casual wear companion. Featuring a durable
             rubber outer sole, they’ll withstand everything the weather can offer.
@@ -74,20 +74,20 @@
         </div>
         <!-- precio -->
         <div
-          className=" md:flex md:flex-col pl-5 pr-10 flex place-content-between  md:items-start md:gap-2 md:pl-10"
+          className=" md:flex md:flex-col pl-[1.55rem] pr-9 flex place-content-between  md:items-start md:pl-11 md:-mt-1"
         >
           <div
-            className="gap-4 flex flex-row items-center h-[2rem] md:h-full text-[28px] md:text-lg font-exbold bg-white  md:bg-transparent "
+            className="gap-5 md:gap-3 flex flex-row items-center h-[2rem] md:h-full text-[28px] md:text-[1.4rem] font-exbold bg-white  md:bg-transparent md:tracking-tight "
           >
             <p>€{{ priceDiscount }}.00</p>
             <p
-              className="bg-black text-white font-bold items-center place-content-center h-[26px] rounded-md text-base mt-1 w-12 md:w-9 md:rounded md:h-5 md:text-xs"
+              className="bg-black text-white font-bold items-center place-content-center h-[26px] rounded-md text-base mt-1 w-12 md:w-10 md:rounded md:h-5 md:text-xs"
             >
               {{ discount }}%
             </p>
           </div>
-          <div className="text-base font-bold text-slate-500 line-through bg-white md:text-xs mb-7">
-            <p>€{{ price }}.00</p>
+          <div className="text-base font-bold text-slate-500 line-through bg-white md:text-xs mb-[1.35rem]">
+            <p className="pt-1">€{{ price }}.00</p>
           </div>
         </div>
       </div>
@@ -98,7 +98,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-const price = ref(250)
-const discount = ref(50)
+const price = ref(250.00)
+const discount = ref(50.00)
 const priceDiscount = price.value * (discount.value / 100)
 </script>

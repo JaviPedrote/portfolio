@@ -2,7 +2,7 @@
   <div className="w-full bg-white z-30">
     <div>
       <div className="relative flex place-content-between w-full pb-2 pl-[20px] h-16 md:h-[4.6rem]">
-        <div className="flex items-center gap-4 w-[50%] md:pl-[5.25rem]">
+        <div className="flex items-center gap-4 w-[50%] md:pl-[5.8rem]">
           <img src="../images/icon-menu.svg" @click="() => props.toggleModal()" className="h-[14px] cursor-pointer md:hidden" alt="menu" />
           <img src="../images/logo.svg" className="md:w-[6.5rem]" alt="logo" />
           <ul className=" hidden md:flex items-center  text-[0.7rem] pl-[1.5rem] tracking-tight">
@@ -28,7 +28,7 @@
           <div className="absolute top-0 opacity-70 right-0 bg-black w-[30%] h-screen"></div>
         </div>
         <div v-else></div>
-        <div className="flex gap-3 items-center pr-7 md:pr-[8.5rem] md:gap-9">
+        <div className="flex gap-3 items-center pr-7 md:pr-[3rem] md:gap-9">
           <div @click="cartModal()" className="relative flex w-7 h-8 items-center cursor-pointer md:w-[1rem] md:h-6">
             <div
               className="absolute bg-orange-400 flex text-white w-[63%] top-0 md:-right-1 h-3 text-[10px] md:text-[7px] rounded-md items-center place-content-center right-0 md:h-2"
