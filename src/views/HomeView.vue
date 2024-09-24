@@ -11,7 +11,7 @@
       <RouterLink className="flex-auto" to="/Proyecto2">
         <div className="flex flex-col items-center">
           <span className="flex-grow text-[clamp(8px,2.5vh,3em)]">Ecommerce</span>
-          <img className="w-[50vw] max-w-[200px] h-auto lg:max-w-[230px] xl:max-w-[300px] rounded-md" :src="ecommerce" alt="Proyecto2" />
+          <img className="w-[40vw] max-w-[200px] h-auto lg:max-w-[230px] xl:max-w-[300px] rounded-md" :src="ecommerce" alt="Proyecto2" />
         </div>
       </RouterLink>
       <RouterLink className="flex-auto" to="/Proyecto1">

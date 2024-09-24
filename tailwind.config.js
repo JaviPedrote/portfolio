@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       margin: {
-        'custom': 'calc(100px + 45%)',
+        'custom': 'calc(130px + 45%)',
       },
       colors:{
         'Lime': 'hsl(61, 70%, 52%)',

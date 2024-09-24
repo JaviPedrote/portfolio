@@ -1,7 +1,7 @@
 <template>
   <div className="">
     <div
-      className="flex flex-wrap md:flex-nowrap md:flex md:flex-row gap-4 md:gap-12 md:pt-[4.5rem] md:items-start items-center md:pl-[9.2rem]"
+      className="flex flex-wrap md:flex-nowrap md:flex md:flex-row gap-4 md:gap-12 md:pt-[4.5rem] md:items-start items-center md:pl-[9.5rem] bg-white"
     >
       <!-- flecha fotos -->
 
@@ -51,9 +51,9 @@
       </div>
 
       <!-- detalles -->
-      <div className="md:flex md:flex-col md:tracking-wider">
+      <div className="md:flex md:flex-col md:tracking-wider md:w-auto">
         <div
-          className=" text-left px-6 pt-1 pb-5 bg-white md:pt-11 md:pl-11 md:pr-[20%] md:flex md:flex-col md:pb-3 "
+          className=" text-left px-6 pt-1 pb-5 bg-white md:pt-11 md:pr-0 md:pl-[9%] md:flex md:flex-col md:pb-3 md:w-[82%]"
         >
           <h2
             className="uppercase text-[11px] font-extrabold text-slate-600 tracking-[1.6px] md:tracking-[1.7px] md:text-[9px]"
@@ -61,12 +61,12 @@
             Sneaker Company
           </h2>
           <h1
-            className=" font-exbold text-[26px] tracking-wide mt-3 mb-3 leading-8 md:leading-9 md:text-[30px] md:font-exbold md:min-w-[370px] "
+            className=" font-exbold text-[26px] tracking-wide mt-3 mb-3 leading-8 md:leading-9 md:text-[30px] md:font-exbold md:min-w-[300px] "
           >
             Fall Limited Edition Sneakers
           </h1>
           <p
-            className=" text-sm tracking-[0.8px] leading-[1.5rem] md:text-[11px] md:pt-4 md:leading-[1.2rem] md:tracking-[0.7px] md:min-w-[300px] "
+            className=" text-sm tracking-[0.8px] leading-[1.5rem] md:text-[11px] md:pt-4 md:leading-[1.2rem] md:tracking-[0.7px] md:min-w-[200px] "
           >
             These low-profile sneakers are your perfect casual wear companion. Featuring a durable
             rubber outer sole, they’ll withstand everything the weather can offer.
@@ -74,7 +74,7 @@
         </div>
         <!-- precio -->
         <div
-          className=" md:flex md:flex-col pl-[1.55rem] pr-9 flex place-content-between  md:items-start md:pl-11 md:-mt-1"
+          className=" md:flex md:flex-col pl-[1.55rem] pr-9 flex place-content-between  md:items-start md:pl-[9%] md:-mt-1"
         >
           <div
             className="gap-5 md:gap-3 flex flex-row items-center h-[2rem] md:h-full text-[28px] md:text-[1.4rem] font-exbold bg-white  md:bg-transparent md:tracking-tight "
