@@ -1,7 +1,7 @@
 <template>
   <div className="">
     <div
-      className="flex flex-wrap md:flex-nowrap md:flex md:flex-row gap-4 md:gap-12 md:pt-[4.5rem] md:items-start items-center md:pl-[9.5rem] bg-white"
+      className="flex flex-wrap md:flex-nowrap md:flex md:flex-row gap-4 md:gap-12 md:pt-[4.5rem] md:items-start items-center md:pl-[9.5rem] md:-ml-2 md:w-screen bg-white"
     >
       <!-- flecha fotos -->
 
@@ -66,7 +66,7 @@
             Fall Limited Edition Sneakers
           </h1>
           <p
-            className=" text-sm tracking-[0.8px] leading-[1.5rem] md:text-[11px] md:pt-4 md:leading-[1.2rem] md:tracking-[0.7px] md:min-w-[200px] "
+            className=" text-sm tracking-[0.8px] leading-[1.5rem] md:text-[11px] md:pt-4 md:leading-[1.2rem] md:tracking-[0.7px] md:min-w-[240px] "
           >
             These low-profile sneakers are your perfect casual wear companion. Featuring a durable
             rubber outer sole, they’ll withstand everything the weather can offer.

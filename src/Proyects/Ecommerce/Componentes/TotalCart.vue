@@ -1,6 +1,6 @@
 <template>
   <div
-  className="bg-white pt-2 pb-7 gap-4 md:gap-3 bottom-[11rem] right-32 md:flex md:h-14 md:-mt-28 md:w-[10%] md:min-w-[320px] md:ml-custom"
+  className="bg-white pt-2 pb-7 gap-4 md:gap-3 bottom-[11rem] right-32 md:flex md:h-14 md:-mt-28 md:w-[10%] md:min-w-[300px] md:ml-custom"
   >
     <div
       className="md:relative flex items-center  bg-slate-100 mx-auto md:ml-[2%] md:mr-0 md:mt-2 w-[88%] rounded-md h-12 place-content-center md:h-10 md:w-28 md:text-sm"
