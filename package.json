@@ -15,6 +15,7 @@
   "dependencies": {
     "@vee-validate/yup": "^4.13.2",
     "pinia": "^2.2.2",
+    "portfolio": "file:",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },

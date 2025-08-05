@@ -27,4 +27,8 @@ coverage
 *.sln
 *.sw?
 
+#ASrchivos de compilacion de terraform
+.terraform
+
+
 *.tsbuildinfo
